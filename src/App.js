@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LinkCard from './LinkCard/LinkCard'
 
 function App() {
+  const data = [
+    {
+      title:'twitter',
+      tagline:'Follow me on twitter',
+      username:'e',
+      link:""
+  },
+    {
+      title:'linkedin',
+      tagline:'Follow me on linkedin',
+      username:'e',
+      link:""
+  },
+    {
+      title:'github',
+      tagline:'Follow me on github',
+      username:'e',
+      link:""
+  }
+]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h2 className='heading'>Link-Tree</h2>
+      {
+        data.map((cardinfo)=>{
+          return<LinkCard title={cardinfo.title} 
+                          username={cardinfo.username} 
+                          tagline={cardinfo.tagline} 
+                          link={cardinfo.link}/>
+                          
+        })
+      }
     </div>
   );
 }
