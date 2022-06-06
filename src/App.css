@@ -1,8 +1,9 @@
 .container{
-  border: 5px double blueviolet;
+  border: 5px double orange;
   margin: 50px;
+  border-radius: 25px;
 }
-.heading
-{
+
+.app-title{
   text-align: center;
 }
