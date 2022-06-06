@@ -6,7 +6,7 @@ function App() {
     {
       title: "github",
       tagline: "Follow me on Github",
-      username: "AmitDorle",
+      username: "Amit Dorle",
       link: "https://github.com/AmitDorle",
     },
     {
