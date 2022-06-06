@@ -5,27 +5,21 @@ function App() {
   const data = [
     {
       title: "github",
-      tagline: "Follow me on github",
+      tagline: "Follow me on Github",
       username: "AmitDorle",
       link: "https://github.com/AmitDorle",
     },
     {
       title: "linkedin",
-      tagline: "Follow me on linkedin",
+      tagline: "Follow me on Linkedin",
       username: "Amit D",
       link: "https://www.linkedin.com/in/amit-d-8a062a232/",
     },
     {
       title: "instagram",
-      tagline: "Follow me on instagram",
+      tagline: "Follow me on Instagram",
       username: "Amit Dorle",
       link: "https://instagram.com/bad_assasin_blooming",
-    },
-    {
-      title: "twitter",
-      tagline: "Follow me on twitter",
-      username: "e",
-      link: "",
     },
   ];
   return (
