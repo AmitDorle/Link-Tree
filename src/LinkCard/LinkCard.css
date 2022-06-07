@@ -23,13 +23,15 @@
     background-color: white;
     border-radius: 10px;
     margin: 5px;
-    box-shadow: 0px 0px 2px 2px tomato;
+    box-shadow: 0px 0px 2px 2px rgb(252, 67, 35);
   }
   
   .handle-description{
     margin-top: -20px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
   }
   .bg-github{
     background-color: #24292e;
@@ -50,6 +52,7 @@
   .username{
     font-size: 30px;
     margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .hyperlink{
