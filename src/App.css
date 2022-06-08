@@ -3,16 +3,18 @@
   margin: 50px;
   border-radius: 25px;
   box-shadow: 0px 0px 10px darkorange;
+  padding: 5px;
+  background-color: rgb(177, 172, 172);
 }
 
 .app-title{
   text-align: center;
-  color: rgb(44, 231, 23);
+  color: rgb(55, 9, 206);
   font-size:30px;
   text-decoration:underline;
   font-family:'Times New Roman', Times, serif;
-  box-shadow: 0px 0px 8px red;
+  box-shadow: 0px 0px 10px rgb(23, 131, 6);
   border-radius: 10px;
   margin: 20px;
-  padding: 2px;
+  padding: 4px;
 }
